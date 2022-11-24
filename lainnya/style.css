@@ -1,0 +1,57 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nama-home {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 32px;
+}
+.navigation-awal {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 60px;
+}
+.navi {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 32px;
+}
+.navi>li {
+    list-style-type: none;
+    padding: 10px;
+}
+.navi>li>a {
+    text-decoration: none;
+    color: white;
+}
+.firstname {
+    color: aqua;
+}
+.layar {
+    background-image: url(/project321/Images/Library\ Flipgrid\ Backdrop.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+table {
+    margin: 115px;
+    margin-top: 150px;
+}
+.vid {
+    padding-right: 05%;
+    padding-top: 155px;
+}
+.aud {
+    margin-top: 40px;
+}

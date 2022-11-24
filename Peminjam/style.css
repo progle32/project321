@@ -1,0 +1,105 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.backround {
+    background-image: url(/project321/Images/Library\ Flipgrid\ Backdrop.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.li-navbar {
+    border-width: 1px;
+    padding: 5px;
+    color: blue;
+}
+.data {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 220px;
+    font-size: 35px;
+}
+.tabel {
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+.table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+td {
+    background-color: mintcream;
+}
+.noanggota {
+    width: 50px;
+    padding: 5px;
+}
+.nobuku {
+    width: 130px;
+    padding: 5px;
+    height: 55px;
+}
+.pinjam {
+    width: 130px;
+    padding: 5px;
+}
+.kembali {
+    width: 120px;
+    padding: 5px;
+}
+.kode {
+    width: 100px;
+    padding: 5px;
+}
+img {
+    display: block;
+}
+.nama-home {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 32px;
+}
+.navigation-awal {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 60px;
+}
+.navi {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 32px;
+}
+.navi>li {
+    list-style-type: none;
+    padding: 10px;
+}
+.navi>li>a {
+    text-decoration: none;
+    color: white;
+}
+.buttons {
+    width: 54px;
+    height: 24px;
+}
+.firstname {
+    color:aqua;
+}

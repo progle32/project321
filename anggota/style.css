@@ -1,0 +1,116 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.njajal {
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+.li-navbar {
+    border-width: 1px;
+    padding: 5px;
+    color: blue;
+}
+.data {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 35px;
+    font-size: 35px;
+}
+.tabel {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+.table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: indianred;
+    color: white;
+}
+td {
+    background-color: mistyrose;
+}
+.noanggota {
+    width: 20px;
+    padding: 5px;
+    align-items: center;
+}
+.nama {
+    width: 130px;
+    height: 50px;
+    padding: 5px;
+}
+.lahir {
+    width: 130px;
+    padding: 5px;
+}
+.kelamin {
+    width: 120px;
+    padding: 5px;
+}
+.alamat {
+    width: 100px;
+    padding: 5px;
+}
+.jurusan {
+    padding: 5px;
+    width: 70px
+}
+img {
+    display: block;
+}
+.nama-home {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 32px;
+}
+.navigation-awal {
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-between;
+    height: 60px;
+}
+.navi {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding: 32px;
+}
+.navi>li {
+    list-style-type: none;
+    padding: 10px;
+}
+.navi>li>a {
+    text-decoration: none;
+    color: white;
+}
+.buttons {
+    width: 54px;
+    height: 24px;
+}
+.firstname {
+    color: darkolivegreen;
+}
+img {
+    width: 70px;
+    display: block;
+}
+.kelas {
+    width: 90px;
+}
